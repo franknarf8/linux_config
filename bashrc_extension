@@ -1,0 +1,4 @@
+#Franks
+echo "Frank's extension processed"
+export PATH=$PATH:~/bin # add ~/bin to PATH
+export PATH=$PATH:/opt/android-studio/bin
