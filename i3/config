@@ -154,8 +154,6 @@ bar {
 #Volume control
 bindsym XF86AudioRaiseVolume exec "~/prog/linux_config/pulsevol.sh 0 up"
 bindsym XF86AudioLowerVolume exec "~/prog/linux_config/pulsevol.sh 0 down"
-# bindsym XF86AudioRaiseVolume exec "amixer -q sset Master,0 1+ unmute"
-# bindsym XF86AudioLowerVolume exec "amixer -q sset Master,0 1- unmute"
 bindsym XF86AudioMute exec --no-startup-id pactl set-sink-mute 0 toggle # mute sound
 
 #Network manager
