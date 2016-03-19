@@ -1,8 +1,0 @@
-[
-    { "keys": ["shift+alt+up"], "command": "select_lines", "args": {"forward": false} },
-    { "keys": ["shift+alt+down"], "command": "select_lines", "args": {"forward": true} },
-    { "keys": ["ctrl+alt+left"], "command": "jump_back"},
-    { "keys": ["ctrl+alt+right"], "command": "jump_forward"},
-    { "keys": ["ctrl+t"], "command": "show_overlay", "args": {"overlay": "goto", "show_files": true} },
-    { "keys": ["ctrl+shift+u"], "command": "soft_undo" },
-]
